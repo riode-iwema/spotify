@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: gray;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --app-block-padding: 180px;
+}
+
+.Btn,
+.bigBtn,
+.LogBtnBlack,
+.LogBtnBlue,
+.logInBtn {
+  background-color: black;
+  color: #fff;
+  padding: 16px 35px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.LogBtnBlack,
+.LogBtnBlue {
+  text-align: center;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.LogBtnBlue {
+  background-color: #1877f2;
+}
+
+.transparentbtn,
+.Btn-invert,
+.LogBtnTrans {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 500px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.LogBtnTrans {
+  border: 2px solid #d9dadc;
+  color: #6a6a6a;
+  text-align: center;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Btn {
+  background-color: black;
+  color: #fff;
+  padding: 16px 35px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.bigBtn {
+  width: 100%;
+  display: block;
+  margin-top: 40px;
+}
+
+.Btn-invert {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  font-weight: 500;
+}
+.logInBtn {
+  max-width: fit-content;
+  background-color: #1ed760;
+  color: #000;
+}

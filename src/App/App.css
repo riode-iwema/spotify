@@ -1,0 +1,28 @@
+/* .blackbtn .transparentbtn{
+    background-color: black;
+    color: #fff;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-transform: uppercase;
+ 
+  }
+ 
+  .transparentbtn{
+    background-color: transparent;
+    border:1px solid #fff;
+ 
+ }
+
+ @media (max-width:500px){
+  .blackbtn .transparentbtn{
+      padding: 10px 20px;
+      text-wrap: nowrap;
+      
+  }
+
+} */

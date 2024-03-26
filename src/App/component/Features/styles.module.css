@@ -1,0 +1,56 @@
+.features{
+    background-color: white;
+    padding:  var(--app-block-padding);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.features .title{
+    font-size: 39px;
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+    
+}
+
+.features p{
+    margin: 0;
+}
+
+.features .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features .card .carditem{
+    width: 285px;
+    height: 283px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.features .card .carditem img{
+    width: 142px;
+    height: 142px;
+}
+
+.features .card .carditem .head{
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.features .card .carditem .description{
+    font-size: 16px;
+    font-weight: normal; 
+}

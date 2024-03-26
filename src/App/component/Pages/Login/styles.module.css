@@ -1,0 +1,138 @@
+.header{
+    max-width: 1440px;
+    max-height: 92px;
+    border-bottom: 2px solid #D9DADC;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 var(--app-block-padding);
+    padding-block: 10px;
+    margin-bottom: 30px;
+}
+
+.inputArea{
+    max-width: 470px;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    padding: 0 var(--app-block-padding);
+    margin: auto;
+    flex-direction: column;
+    border-bottom: 0;
+    justify-content: center;
+    gap: 15px;
+    font-size: "Inter" , sans-serif;
+    margin-bottom: 10px;
+    
+    
+}
+
+.inputArea p{
+    color: #000;
+    font-size: bold;
+    margin: 5px;
+}
+
+.ButtonLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+   
+    
+}
+
+.line{
+   height: 0;
+   font-size: 14px;
+   font-weight: bold;
+   border: 1px solid;
+   width: 100%;
+   text-align: center;
+   line-height: 0;
+}
+
+.line span{
+   background-color: #FFFFFF;
+   padding: 5px 20px;
+   color: #000;
+}
+
+.google{
+    height: 15px;
+    width: 15px;
+}
+
+.wrapper{
+    display: block;
+    padding: 10px 0;
+    color: #000;
+    position: relative;
+
+}
+
+.wrapper h3{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #000;
+    font-size: "Inter" , sans-serif;
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.wrapper input{
+    display: block;
+    width: 100%;
+    padding: 10px ;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 1.3px #878787;
+    max-width: calc(100% - 20px);
+    height: 28px;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+
+}
+
+.forPassword{
+    font: size 16px;
+    font-family: Helvetica;
+    color: #000;
+    text-align: left;
+    display: block;
+    width: 100%;
+
+}
+
+.flex{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.flex input:checked{
+    accent-color: #169B45;
+
+}
+
+.flex input[type='checkbox']{
+    /* margin-right: 15px; */
+    width: 20px;
+    height:20px;
+}
+
+.flex > div{
+    display: flex;
+    gap: 10px;
+}

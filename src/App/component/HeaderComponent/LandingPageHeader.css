@@ -1,0 +1,87 @@
+.header{
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--app-block-padding);
+    background-color: #000;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+}
+
+.menu {
+    position: relative;
+    
+}
+
+.menu ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* ANCHOR TAG WITH DIFFERENT COLORS */
+
+.menu ul li.active a{
+    color: #D9DADC;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* MEDIA QUERY FOR SMALL SCREEN */
+
+@media (max-width:500px){
+    .menu-icon{
+        display: block;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top:49px ;
+        right: 0;
+        padding: var(--app-block-padding);
+        background-color: #000;
+        
+    }
+    .menu ul{
+        display: none;
+        /* flex-direction: column;
+        position: absolute; */
+        
+    }
+
+    .menu ul.mobile{
+        display: block;
+        /* flex-direction: column;
+        position: absolute; */
+        
+    }
+    .menu ul li {
+        padding: 10px 0;
+
+    }
+
+    .menu ul li.hidden-mobile {
+        display: none;
+
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    :root{
+        --app-block-padding: 30px;
+    }
+
+}

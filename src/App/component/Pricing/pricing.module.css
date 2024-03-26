@@ -1,0 +1,149 @@
+.section{
+    /* padding: 0 var(--app-block-padding); */
+    background-color: #EFEFEF;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Card, .discount{
+    background-color: #fff;
+    width: 269px;
+    max-width: 269px;
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+}
+  
+.Card span.free {
+    background-color: #0D72EA;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+  
+.Card span.onetime{
+    background-color: #fff;
+    color: #0D72EA;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 13px;
+    border: 1px solid #0D72EA ;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.Card h1.planName{
+    font-size: 23px;
+    color: #000000;
+    margin: 0;
+}
+
+.cardCont{
+    margin: 0 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.content{
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 0;
+    box-shadow: -8px 10px 12px #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content ul{
+    margin: 0;
+    padding: 0 22px;
+    list-style-image: url(../../assests/Icons/mark.svg);
+   
+}
+
+.content ul li{
+    padding: 5px 15px;
+    position: relative;
+}
+
+.content ul li p{
+    margin: 0;
+    margin-top: -4px;
+    /* position: absolute; */
+}
+
+/* .bigBtn{
+    width: 100%;
+} */
+
+
+.termFoot{
+    padding: 20px;
+    color: #535353;
+    font-size: 12px;
+}
+
+
+.termFoot a{
+    color: #535353;
+    font-size: 12px;
+} 
+
+.flex{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title, .description{
+    color: #000;
+    font-size: 38px;
+    text-align: center;
+    margin: 0;
+}
+
+.description{
+    font-size: 16px;
+    padding: 14px 0;
+}
+
+.discount{
+    max-width: none;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 4px 10px;
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+@media (max-width: 768px) {
+    .discount{
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+}
+    
